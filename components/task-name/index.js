@@ -16,12 +16,13 @@ function TaskName() {
     const $article = $origin.parentElement;
     const $h1 = $article.children[0];
     const $section = $origin.closest(".task-div");
+    console.log($section.children.length);
 
-    if ($section.children.length > 0) {
+    if ($section.children.length == 1) {
       $article.remove();
+      $section.classList.remove("task-div-active");
     } else {
-      const $teste = document.querySelector("#task-div");
-      $teste.remove();
+      $article.remove();
     }
   };
   let $Input = document.getElementById("input-item");
@@ -29,8 +30,8 @@ function TaskName() {
   return /*html*/ `
       <article id='task-article'>
         <h1 id='task-name'>${$task}</h1>
-        <img src='images/check 1.png' alt='Completar tarefa' onclick='taskName.handdleClick(event)' id='check-icon'>
-        <img src='images/delete.svg' alt='Deletar tarefa' onclick='taskName.delete(event)' id='delete-icon'>
+        <img src='images/check 2.png' alt='Completar tarefa' onclick='taskName.handdleClick(event)' id='check-icon'>
+        <img src='images/delete 3.png' alt='Deletar tarefa' onclick='taskName.delete(event)' id='delete-icon'>
       </article>
     `;
 }

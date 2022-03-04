@@ -6,16 +6,13 @@
 
 #task-name {
   width: 60%;
-  color: #363436;
+  color: #f1faee;
   padding-top: 20px;
+  font-size: 1.2em;
 }
 
 .task-check {
   text-decoration: line-through;
-}
-
-#task-article p {
-  color: #7a28cb;
 }
 
 #check-icon {

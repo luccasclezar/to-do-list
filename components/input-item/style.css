@@ -12,4 +12,12 @@
   font-size: 0.8em;
   border: none;
   border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  color: #003249;
+}
+
+#submit-button:hover {
+  transform: scale(1.05);
+  opacity: 0.95;
 }

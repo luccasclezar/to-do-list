@@ -1,0 +1,15 @@
+#input-item {
+  width: 60%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Press Start 2P", cursive;
+}
+
+#submit-button {
+  padding: 12px;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.8em;
+  border: none;
+  border-radius: 8px;
+}

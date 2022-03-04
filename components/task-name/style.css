@@ -1,0 +1,37 @@
+#task-article {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+#task-name {
+  width: 60%;
+  color: #363436;
+  padding-top: 20px;
+}
+
+.task-check {
+  text-decoration: line-through;
+}
+
+#task-article p {
+  color: #7a28cb;
+}
+
+#check-icon {
+  transition: transform 0.2s;
+}
+
+#check-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#delete-icon {
+  transition: transform 0.2s;
+}
+
+#delete-icon:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}

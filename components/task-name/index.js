@@ -30,8 +30,8 @@ function TaskName() {
   return /*html*/ `
       <article id='task-article'>
         <h1 id='task-name'>${$task}</h1>
-        <img src='/to-do-list/images/check.png' alt='Completar tarefa!' onclick='taskName.handdleClick(event)' id='check-icon'>
-        <img src='/to-do-list/images/delete.png' alt='Deletar tarefa!' onclick='taskName.delete(event)' id='delete-icon'>
+        <img src='/to-do-list/images/check.png' alt='Completar tarefa' onclick='taskName.handdleClick(event)' id='check-icon'>
+        <img src='/to-do-list/images/delete.png' alt='Deletar tarefa' onclick='taskName.delete(event)' id='delete-icon'>
       </article>
     `;
 }

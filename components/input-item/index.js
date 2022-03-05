@@ -10,7 +10,7 @@ function InputItem() {
   return /*html*/ `
     <form onSubmit='return false';>
     <input id='input-item' type='text' placeholder='Digite a tarefa'>
-    <input id='submit-button' type='submit' onClick='inputItem.handlleClick()' value='Adicionar!!!'>
+    <input id='submit-button' type='submit' onClick='inputItem.handlleClick()' value='Adicionar'>
     </form>
     `;
 }

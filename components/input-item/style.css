@@ -3,13 +3,12 @@
   padding: 15px;
   border: none;
   border-radius: 8px;
-  font-family: "Press Start 2P", cursive;
+  font-family: "Fredoka", sans-serif;
 }
 
 #submit-button {
   padding: 12px;
-  font-family: "Press Start 2P", cursive;
-  font-size: 0.8em;
+  font-family: "Fredoka", sans-serif;
   border: none;
   border-radius: 8px;
   cursor: pointer;

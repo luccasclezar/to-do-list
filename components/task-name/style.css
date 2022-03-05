@@ -7,8 +7,9 @@
 #task-name {
   width: 60%;
   color: #f1faee;
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .task-check {
